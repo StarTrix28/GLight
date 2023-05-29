@@ -1,0 +1,6 @@
+var test = 1;
+
+printL(getvar('test'));
+var test = getvar('test');
+wait(1);
+goto 1;
